@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <style>
+        .header {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: orange;
+        }
+        .logo {
+            padding-bottom: 0%;
+        }
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /*.column.inner {
+            width: 33.3333333%;
+            background-color: white;
+        }*/
+        /*.column.outer {
+            width: 50%;
+            background-color: white;
+        }*/
+        .columnleft {
+            width: 20%;
+            display: inline;
+        }
+        .columnright {
+            width: 20%;
+            display: inline;
+        }
+        .cimage {
+            float: left;
+            width: 10% ;
+            padding-right: 10px;
+        }
+        .column {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .column h2 {
+            text-align: center;
+        }
+        .column h3 {
+            text-align: left;
+        }
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid red;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+            font-family: Sans-Serif;
+        }
+        input[type=submit] {
+            background-color: red;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: Sans-Serif;
+        }
+        input[type=submit]:hover {
+            background-color: tomato;
+        }
+        .feedbackform {
+            border-radius: 5px;
+            background-color: white;
+            padding: 20px;
+            font-family: Sans-Serif;
+        }
+        .footer {
+            background-color: white;
+            padding: 10px;
+        }
+        .smimage {
+            display: inline;
+            max-width: 2%;
+            padding-right: 2px;
+            padding-left: 2px;
+        } 
+        .lefticon{
+            padding-left: 44%;
+        }
+        .righticon{
+            padding-right: 44%;
+        }
+    </style>
+    <div class="header">
+        <img class="logo" src="Web-Images/WFMLogo.png" width="100px" height="90px">
+        <h1><img src="Web-Images/WFMText.png" width="350px" height="80px"></h1>
+    </div>
+    <div class="row">
+        <div class="columnleft">
+            <h2><img src="Web-Images/WFMLogo.png" width="1.5%"> | Electronic Stores</h2>
+            <hr style="height:4px;border-width:0;color:rgb(255, 0, 0);background-color:rgb(255, 0, 0)"> 
+            <br>
+                <p><img class="cimage" src="Web-Images/BPJBHI-FI.jpg"><h3>JB HI-FI Electronics</h3>
+                    New Zealand's biggest range of TVs, Computers, Tablets, Games & Consoles, Music, Movies, Phones & Appliances at JB Hi-Fi.</p><p2 style="color:blue;">» View Shop Listings</p2>
+                <br><br><br><br>
+                <p><img class="cimage" src="Web-Images/BPNoelLeeming.jpg"><h3>Noel Leeming</h3>
+                    Our Team Of Passionate Experts That Are Here To Help. Shop In-Store Or Online Today. Shop Appliances, Whiteware, Tech & More In-Store & Online At Noel Leeming. Earn Flybuys.</p><p2 style="color:blue;">» View Shop Listings</p2> 
+                <br><br><br><br>
+                <p><img class="cimage" src="Web-Images/BPSpark.jpg"><h3>Spark Mobile</h3>
+                    Connecting New Zealand with technology. Discover endless & flexible broadband plans, mobile phones, mobile plans & accessories with Spark NZ.</p><p2 style="color:blue;">» View Shop Listings</p2>              
+        </div>
+        <!--<div class="column inner">
+            <h2><img src="Web-Images/WFMLogo.png" width="4%"> | Clothing Outlets</h2>
+            <hr style="height:4px;border-width:0;color:rgb(255, 0, 0);background-color:rgb(255, 0, 0)">
+            <br>
+            <p><img class="cimage" src="Web-Images/BPHallensteins.jpg"><h3>Hallensteins</h3>
+                Looking to Freshen Up Your Wardrobe This Summer? Hallenstein Brothers Has You Covered. Check The Latest Styles In Store Today!</p><p2 style="color:blue;">» View Shop Listings</p2>
+            <br><br>
+            <p><img class="cimage" src="Web-Images/BPCottonOn.jpg"><h3>Cotton On</h3>
+                Save 30% Off Everything Now! Shop Online With Free Shipping & Free Returns. Women's, Men's & Kids Clothing, Shoes, Accessories, Stationery, Tech & Gifts.</p><p2 style="color:blue;">» View Shop Listings</p2> 
+            <br><br> 
+            <p><img class="cimage" src="Web-Images/BPPumkinPatch.jpg"><h3>Pumpkin Patch</h3>
+                Find gorgeous kids outfits with EziBuy's range of Pumpkin Patch clothing. Shop the wide variety of kidswear & pay later with Afterpay.</p><p2 style="color:blue;">» View Shop Listings</p2>-->
+        
+        </div>
+        <br><br><br><br>
+        <div class="columnright">
+            <h2><img src="Web-Images/WFMLogo.png" width="1.5%"> | Sports Stores</h2>
+            <hr style="height:4px;border-width:0;color:rgb(255, 0, 0);background-color:rgb(255, 0, 0)">
+            <br>
+            <p><img class="cimage" src="Web-Images/BPNike.jpg"><h3>The Nike Store</h3>
+                Fresh, Iconic And Exclusive Styles For On The Pitch And On The Street From Nike. Discover The Latest Nike Shoes And Clothing.</p><p2 style="color:blue;">» View Shop Listings</p2>
+            <br><br><br><br>
+            <p><img class="cimage" src="Web-Images/BPPuma.jpg"><h3>Puma Sportsgear</h3>
+                Run The Streets. Do You. Research and shop all the latest gear from the world of Fashion, Sport, and everywhere in between.</p><p2 style="color:blue;">» View Shop Listings</p2> 
+            <br><br><br><br> 
+            <p><img class="cimage" src="Web-Images/BPLotto.jpg"><h3>Lotto Store</h3>
+                Lotto Sports Gear. Buy clearance sports gear online. Cricket, football, tennis, rugby, hockey, netball, basketball plus more.</p><p2 style="color:blue;">» View Shop Listings</p2>
+            <br><br><br>
+        </div>
+    </div>
+    <br><br>
+    <hr style="height:4px;border-width:0;color:rgb(255, 0, 0);background-color:rgb(255, 0, 0)">
+    <div class="header">
+        <h1><img src="Web-Images/WFMSubmitFeedback.png" width="350px" height="80px"></h1>
+    </div>
+    <script type="text/javascript">
+        function clicked() {
+            alert('Thank you for your feedback!');
+        }
+    </script>
+    <div class="feedbackform">
+          <label for="fname"><b>Full Name</b></label>
+          <input type="text" id="fname" name="fullname" placeholder="Enter Name..">
+
+          <label for="phone"><b>Phone Number</b></label>
+          <input type="text" id="phone" name="phonenumber" placeholder="Enter Phone Number..">
+
+          <label for="phone"><b>Email Address</b></label>
+          <input type="text" id="eaddress" name="emailaddress" placeholder="Enter Email Address..">
+      
+          <label for="subject"><b>Feeback</b></label>
+          <textarea id="subject" name="subject" placeholder="We'd love to hear your feedback!" style="height:200px"></textarea>
+      
+          <input type="submit" onclick="clicked();" value="Submit" style="font-weight: bold;">
+        </form>
+    </div>
+    <hr style="height:4px;border-width:0;color:rgb(255, 0, 0);background-color:rgb(255, 0, 0)">
+    <div class="footer">
+            <a href="https://www.instagram.com/"><img class="smimage lefticon" src="Web-Images/SMInstagram.png"></a>
+            <a href="https://www.facebook.com/"><img class="smimage" src="Web-Images/SMFacebook.png"></a>
+            <a href="https://twitter.com/"><img class="smimage" src="Web-Images/SMTwitter.png"></a> 
+            <a href="https://www.whatsapp.com/?lang=en"><img class="smimage righticon" src="Web-Images/SMWhatsApp.png"></a>
+    </div>
+</body>
+</html>
+
